@@ -11,10 +11,7 @@ for (let i=0 ; i<FROGS ; i++){
     document.querySelector('#track').appendChild(lane);
 };
 
-// 1. Create for loop that makes use of FROGS to know how many lanes to create.
+const stableLink = document.createElement('script');
+stableLink.setAttribute(src, 'workshop\exercise-2\assets\frogStable.js');
+document.querySelector('body').appendChild(stableLink);
 
-// 2. Create li  
-
-// 3. Create span and add it to the li
-
-// 4. Assign an id to each lane

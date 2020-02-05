@@ -40,7 +40,7 @@ Style a webpage entirely with `JS`!
 In a fit of inefficiency, you decide to **not** have a `.css` file, but still need the page to look good.
 
 1. Duplicate `📂 exercise-1-2` folder and name it `📂 exercise-1-3`
-2. In `exercise.html` remove all of the classes! Do it!
+2. In `scripts.js` remove all of the classes! Do it!
 3. Open the `styles.css` file. Look at all of that CSS...
 4. You need to add all of that CSS from the `scripts.js`.
 
