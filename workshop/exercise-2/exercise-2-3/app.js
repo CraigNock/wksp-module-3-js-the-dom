@@ -23,9 +23,17 @@ for (let i=0 ; i<FROGS ; i++){
     let froggo = document.createElement('span');
     froggo.innerText = `${racers[i].name}`;
     froggo.className = 'frog';
-    froggo.style.backgroundColour = `${racers[i].color}`
+    froggo.style.backgroundColor = `${racers[i].color}`
+    froggo.progress = 0;
+    froggo.style.marginLeft = `${froggo.progress}%`;
     document.querySelector(`#Lane-${i+1}`).appendChild(froggo);
 };
+
+const styleLink = document.createElement('link');
+styleLink.className = 'css';
+styleLink.setAttribute('href', "../assets/styles.css");
+styleLink.rel = 'stylesheet';
+document.querySelector('head').appendChild(styleLink);
 
 console.log(racers);
 
