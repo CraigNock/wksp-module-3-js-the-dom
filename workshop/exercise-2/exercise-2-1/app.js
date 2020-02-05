@@ -3,7 +3,7 @@ const FROGS = 3;
 
 for (let i=0 ; i<FROGS ; i++){
     const lane = document.createElement('li');
-    lane.idName = `Lane${i+1}`;
+    lane.id = `Lane-${i+1}`;
 
     const laneLabel = document.createElement('span');
     lane.appendChild(laneLabel);

@@ -16,16 +16,8 @@ for (let i=0 ; i<FROGS ; i++){
 // document.querySelector('body').insertAdjacentElement('beforebegin', stableLink);
 
 const racers = [];
-
 for (let i=0 ; i<FROGS ; i++){
     racers.push(frogStable[i]);
-
-    let froggo = document.createElement('span');
-    froggo.innerText = `${racers[i].name}`;
-    froggo.className = 'frog';
-    froggo.style.backgroundColour = `${racers[i].color}`
-    document.querySelector(`#Lane-${i+1}`).appendChild(froggo);
 };
 
 console.log(racers);
-

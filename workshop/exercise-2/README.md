@@ -38,7 +38,7 @@ We need to assign each frog to a lane.
 4. Add a class of `frog` to each of the frogs so that we can style them later.
 5. Let's also temporarily set the background color of the frog element to the color assigned to it in its object.
 6. Set the frog's progress to 0 inside its object, inside of the racers array.
-7. Add each frog's progress to the progress to the screen as well.
+7. Add each frog's progress to the screen as well.
 8. This might also be a good time to add the stylesheet that is in the assets folder.
 
 ### Exercise 2.4 - Make 'em hop!
