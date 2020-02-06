@@ -27,9 +27,14 @@ const racers = [];
 
 
 
-
 for (let i=0 ; i<FROGS ; i++){
     racers.push(frogStable[i]);
+    // let randFrog = Math.floor(Math.random() * (10 - frogStable.length) );
+    // frogStable.forEach(function(i){
+    //     if(frogStable[randFrog] !== racers[randFrog] ){
+    //         racers.push(randFrog);
+    //     }
+    // });
 
     let froggo = document.createElement('span');
     froggo.innerText = `${racers[i].name}`;
