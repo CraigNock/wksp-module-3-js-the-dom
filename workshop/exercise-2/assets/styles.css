@@ -8,7 +8,7 @@
 }
 
 .track li {
-    background: green;
+    background: darkgreen;
     display: flex;
     align-items: center;
     height: 80px;
